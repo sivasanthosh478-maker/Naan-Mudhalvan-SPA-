@@ -1,0 +1,11 @@
+body{
+    padding-bottom:40px;
+    background-color: rgb(211, 251, 255);
+}
+#brand{
+    margin-left:91.8%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 173, 185);
+    font-weight: bold;
+}
+.card-img-top{height:150px;object-fit:cover;}

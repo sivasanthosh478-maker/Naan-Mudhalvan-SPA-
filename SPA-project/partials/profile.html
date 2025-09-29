@@ -1,0 +1,12 @@
+<div class="container mt-4">
+  <h2>Profile</h2>
+  <div ng-if="loading">Loading...</div>
+  <div ng-if="user">
+    <img ng-src="{{user.avatar}}" class="img-thumbnail mb-3" style="max-width:150px;">
+    <p><strong>Name:</strong> {{user.name}}</p>
+    <p><strong>Email:</strong> {{user.email}}</p>
+    <p><strong>Phone:</strong> {{user.phone}}</p>
+    <a class="btn btn-warning" href="#!/edit/{{user.id}}">Edit Profile</a>
+    <a class="btn btn-secondary" href="#!/">Back</a>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+<!doctype html>
+<html ng-app="spaApp">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width:device-width,initial-scale=1.0"> 
+  <title>SPA - User Profiles</title>
+  <!-- Bootstrap CSS (for quick layout) -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h3 id="brand">ShivTech</h3>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#!/">Student Profiles</a>
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="#!/">Dashboard</a>
+    </div>
+  </nav>
+
+  <div ng-view></div>
+
+  <!-- AngularJS and ngRoute -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular-route.min.js"></script>
+
+  <!-- App scripts -->
+  <script src="app.js"></script>
+  <script src="services.js"></script>
+  <script src="controllers.js"></script>
+</body>
+</html>

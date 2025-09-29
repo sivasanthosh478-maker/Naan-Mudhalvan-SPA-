@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Ram Pravin C",
+    "email": "crpn@gamil.com",
+    "phone": "9999999999",
+    "avatar": "images/crp.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sivasanthosh",
+    "email": "sivasanthosh@gmail.com",
+    "phone": "9999999991",
+    "avatar": "images/siva.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Siva Guhan S",
+    "email": "guhansiva47@gmail.com",
+    "phone": "9999999992",
+    "avatar": "images/guhan.jpg"
+  }
+]
