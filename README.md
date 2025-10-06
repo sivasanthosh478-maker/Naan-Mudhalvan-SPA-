@@ -32,7 +32,7 @@ SPA → AngularJS → JSON (Mock Data) → Dynamic View Rendering
 --------------------------------------
 
 **Project Folder Structure**
-NaanMudhalvan-SPA-/
+```NaanMudhalvan-SPA-/
 │
 ├── SPA-project/
 │ ├── index.html
@@ -51,7 +51,7 @@ NaanMudhalvan-SPA-/
 │ └── data/
 │ └── users.json
 │
-└── README.md
+└── README.md```
 
 ---------------------------------------
 ### How to Run Locally
