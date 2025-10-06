@@ -1,6 +1,6 @@
 body{
     padding-bottom:40px;
-    background-color: rgb(211, 251, 255);
+    background-color: #f8f9fa;
 }
 #brand{
     margin-left:91.8%;
@@ -9,3 +9,5 @@ body{
     font-weight: bold;
 }
 .card-img-top{height:150px;object-fit:cover;}
+.card{border: radius 10px;}
+.card-title{color:#2c3e50;}

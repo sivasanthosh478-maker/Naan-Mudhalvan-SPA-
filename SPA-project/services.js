@@ -53,10 +53,15 @@ angular.module('spaApp')
     var deferred = $q.defer();
     loadUsers().then(function(list){
       var u = list.find(function(x){ return x.id == id; });
-      deferred.resolve(u);
+      if (u) {
+        deferred.resolve(u);
+      } else {
+        deferred.reject("User not found");
+      }
     }, function(err){ deferred.reject(err); });
-    return deferred.promise;
+  return deferred.promise;
   }
+
 
   function updateUser(updated){
     var deferred = $q.defer();
