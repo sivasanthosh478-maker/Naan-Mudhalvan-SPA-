@@ -32,7 +32,8 @@ SPA → AngularJS → JSON (Mock Data) → Dynamic View Rendering
 --------------------------------------
 
 **Project Folder Structure**
-```NaanMudhalvan-SPA-/
+```
+NaanMudhalvan-SPA-/
 │
 ├── SPA-project/
 │ ├── index.html
@@ -51,12 +52,11 @@ SPA → AngularJS → JSON (Mock Data) → Dynamic View Rendering
 │ └── data/
 │ └── users.json
 │
-└── README.md```
-
+└── README.md
+```
 ---------------------------------------
 ### How to Run Locally
 1. **Clone the repository**
-   ```bash
    git clone https://github.com/sivasanthosh478-maker/Naan-Mudhalvan-SPA-.git
 2. **Navigate to project**
    cd Naan-Mudhalvan-SPA-/SPA-project
